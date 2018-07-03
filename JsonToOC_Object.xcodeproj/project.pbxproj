@@ -14,6 +14,7 @@
 		A42975B820EA194C00F6CF1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42975B720EA194C00F6CF1D /* main.m */; };
 		A42975C320EA194C00F6CF1D /* JsonToOC_ObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42975C220EA194C00F6CF1D /* JsonToOC_ObjectTests.m */; };
 		A42975CE20EA194C00F6CF1D /* JsonToOC_ObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A42975CD20EA194C00F6CF1D /* JsonToOC_ObjectUITests.m */; };
+		A42975DD20EA229E00F6CF1D /* NSAlert+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = A42975DC20EA229E00F6CF1D /* NSAlert+Help.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		A42975C920EA194C00F6CF1D /* JsonToOC_ObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonToOC_ObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42975CD20EA194C00F6CF1D /* JsonToOC_ObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToOC_ObjectUITests.m; sourceTree = "<group>"; };
 		A42975CF20EA194C00F6CF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42975DB20EA229E00F6CF1D /* NSAlert+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+Help.h"; sourceTree = "<group>"; };
+		A42975DC20EA229E00F6CF1D /* NSAlert+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+Help.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				A42975AC20EA194B00F6CF1D /* AppDelegate.m */,
 				A42975AE20EA194B00F6CF1D /* ViewController.h */,
 				A42975AF20EA194B00F6CF1D /* ViewController.m */,
+				A42975DB20EA229E00F6CF1D /* NSAlert+Help.h */,
+				A42975DC20EA229E00F6CF1D /* NSAlert+Help.m */,
 				A42975B120EA194C00F6CF1D /* Assets.xcassets */,
 				A42975B320EA194C00F6CF1D /* Main.storyboard */,
 				A42975B620EA194C00F6CF1D /* Info.plist */,
@@ -262,6 +267,7 @@
 			files = (
 				A42975B020EA194B00F6CF1D /* ViewController.m in Sources */,
 				A42975B820EA194C00F6CF1D /* main.m in Sources */,
+				A42975DD20EA229E00F6CF1D /* NSAlert+Help.m in Sources */,
 				A42975AD20EA194B00F6CF1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +428,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = JsonToOC_Object/JsonToOC_Object.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = JsonToOC_Object/Info.plist;
@@ -439,7 +444,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = JsonToOC_Object/JsonToOC_Object.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = JsonToOC_Object/Info.plist;

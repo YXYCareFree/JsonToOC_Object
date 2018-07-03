@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSTextField *modelClassName;
+@property (weak) IBOutlet NSTextField *subModelPrefix;
+@property (weak) IBOutlet NSScrollView *jsonData;
+@property (weak) IBOutlet NSTextField *modelPath;
 
 @end
 
